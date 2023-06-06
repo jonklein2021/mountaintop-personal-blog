@@ -1,0 +1,21 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 20px;
+    width: 50vw;
+    height: 75vh;
+}
+
+.box h1 {
+    font-size: 24pt;
+    color: #121212;
+    margin: 10px 0 5px 0;
+}
+
+.box p {
+    text-align: left;
+    font-size: 14pt;
+    color: #121212;
+    margin: 5px 20px 5px 20px;
+}

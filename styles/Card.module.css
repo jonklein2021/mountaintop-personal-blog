@@ -1,0 +1,39 @@
+.card {
+    width: 20vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    max-height: fit-content;
+    background-color: #FFF;
+    color: #121212;
+    border-radius: 20px;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+.card h1 {
+    text-align: left;
+    font-size: 18pt;
+    color: #121212;
+    margin: 5px 0 5px 0;
+}
+
+.card p {
+    text-align: left;
+    font-size: 14pt;
+    color: #121212;
+    padding: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
