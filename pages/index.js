@@ -98,7 +98,7 @@ const Home = () => {
             <div className={styles.cardbox}>
               {cards.map(card => {
                 return (
-                  <Link href={`?card=${idx}`}>
+                  <Link href={`?card=${cards.indexOf(card)}`}>
                     <Card key={cards.indexOf(card)} title={card["title"]} text={card["text"]} />
                   </Link>
                 );
