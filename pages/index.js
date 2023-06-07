@@ -7,6 +7,8 @@ import ModalText from '../components/ModalText'
 import styles from '../styles/Home.module.css'
 import bg from "../public/mountain.jpg"
 import lads from "../public/idisc-lads.jpg"
+import lehigh from "../public/lehigh.png"
+import sss from "../public/sss.png"
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -71,6 +73,20 @@ const Home = () => {
         }}>
           <h1 className={styles.title}>Mountaintop Experience Weekly Reports</h1>
           <h2 className={styles.subtitle}>Jon Klein</h2>
+          <Image
+          src={lehigh}
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ position: 'absolute', width: '5%', height: 'auto', top: '10px', left: 0, zIndex: 1000}}
+          />
+          <Image
+          src={sss}
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ position: 'absolute', width: '5%', height: 'auto', top: 0, right: '10px', zIndex: 1000}}
+          />
           <div className={styles.contentbox}>
             <div className={styles.infobox}>
               <Image
