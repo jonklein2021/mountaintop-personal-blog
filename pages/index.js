@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import React, { useState } from 'react'
+import React from 'react'
 import Card from '../components/Card'
 import Modal from '../components/Modal'
 import ModalText from '../components/ModalText'
 import styles from '../styles/Home.module.css'
 import bg from "../public/mountain.jpg"
+import lads from "../public/idisc-lads.jpg"
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -73,7 +74,7 @@ const Home = () => {
           <div className={styles.contentbox}>
             <div className={styles.infobox}>
               <Image
-              src="/../public/idisc-lads.jpg"
+              src={lads}
               alt="I-DISC"
               width={0}
               height={0}
