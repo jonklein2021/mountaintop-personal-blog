@@ -22,6 +22,7 @@
   font-size: 20pt;
   margin-bottom: 10px;
   color: #5b5b5b;
+  /* color: #121212; */
 }
 
 .contentbox {
@@ -41,7 +42,7 @@
 }
 
 .infobox p {
-  font-size: 14pt;
+  font-size: 12pt;
   margin: 5px;
 }
 
