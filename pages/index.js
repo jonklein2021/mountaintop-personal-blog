@@ -111,9 +111,7 @@ const Home = () => {
                 program. This particular project is a continuation of our project from this past spring in which we studied
                 and benchmarked PLONK-based Zero-Knowledge proving schemes under the supervision of Professor Hank Korth and
                 former masters student Tal Derei. From that experience came the publication of the 
-                <u><a target="_blank" href="/VDBS_ZK_paper.pdf" rel="noopener noreferrer"> VDBS paper</a></u>.
-                <br/>
-                <br/>
+                <a target="_blank" href="/VDBS_ZK_paper.pdf" rel="noopener noreferrer"> <u>VDBS paper</u></a>.
                 Now, we're aiming to enhance the performance of the UltraPLONK proving system by parallelizing its proof
                 generation algorithm. We're doing this using NVIDIA's CUDA framework, which enables us to harness the power
                 of their GPUs to write code that runs in parallel.
