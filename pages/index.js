@@ -21,8 +21,8 @@ const Home = () => {
         text: `This week, we went through a typical first week. We set up repositories,
         discussed our plan for the summer (and beyond), and familiarized ourselves with frameworks.
         Namely, we refreshed ourselves on the CUDA framework for C++, the main tool that we will be
-        using throughout this project for GPU parallel programming. We began with simple, relevant
-        problems such as vector addition, matrix multiplication, and sum reduction. Moreover, we
+        using throughout this project for GPU parallel programming. We began by implementing simple,
+        relevant problems such as vector addition, matrix multiplication, and sum reduction. We also
         acquainted ourselves with the state of the barretenberg repository as well as existing MSM
         implementations to get started on our own implementation. Next week, we plan to begin on a
         testing suite to ensure that future development of our MSM implementation passes for correctness.`
@@ -116,7 +116,7 @@ const Home = () => {
                 to write code that runs in parallel.
                 <br/>
                 <br/>
-                You can our week-by-week progress by using the right panel:
+                You can view our week-by-week progress by using the right panel:
               </p>
             </div>
             <div className={styles.cardbox}>
