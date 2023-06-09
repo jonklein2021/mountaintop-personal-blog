@@ -109,8 +109,9 @@ const Home = () => {
                 Hello! I'm a rising Junior studying Math and Computer Science through Lehigh's IDEAs program. This summer,
                 I'm continuing Zero-Knowledge research with my teammates Caleb and Victor through the Mountaintop Experience
                 program. This particular project is a continuation of our project from this past spring in which we studied
-                and benchmarked PLONK-based Zero-Knowledge proving schemes under the supervision of former masters student
-                Tal Derei and Professor Hank Korth.
+                and benchmarked PLONK-based Zero-Knowledge proving schemes under the supervision of Professor Hank Korth and
+                former masters student Tal Derei. From that experience came the publication of the 
+                <u><a target="_blank" href="/VDBS_ZK_paper.pdf" rel="noopener noreferrer"> VDBS paper</a></u>.
                 <br/>
                 <br/>
                 Now, we're aiming to enhance the performance of the UltraPLONK proving system by parallelizing its proof
