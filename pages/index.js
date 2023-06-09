@@ -80,20 +80,20 @@ const Home = () => {
         }}>
           <h1 className={styles.title}>Mountaintop Experience Weekly Reports</h1>
           <h2 className={styles.subtitle}>Jon Klein</h2>
-          <Image
+          <a target="_blank" href="https://creativeinquiry.lehigh.edu/mountaintop-programs/mountaintop-summer-experience" rel="noopener noreferrer"><Image
           src={lehigh}
           width={0}
           height={0}
           sizes="100vw"
           style={{ position: 'absolute', width: '5%', height: 'auto', top: '10px', left: 0, zIndex: 1000}}
-          />
-          <Image
+          /></a>
+          <a target="_blank" href="https://wordpress.lehigh.edu/sss/" rel="noopener noreferrer"><Image
           src={sss}
           width={0}
           height={0}
           sizes="100vw"
           style={{ position: 'absolute', width: '5%', height: 'auto', top: 0, right: '10px', zIndex: 1000}}
-          />
+          /></a>
           <div className={styles.contentbox}>
             <div className={styles.infobox}>
               <Image
