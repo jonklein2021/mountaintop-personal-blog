@@ -18,7 +18,7 @@ const Home = () => {
     const cards = [
       {
         title: "Week 1: 6/5 - 6/9",
-        text: `This week, we went through a typical first week. We set up repositories,
+        text: `Our first week was more or less a typical starting week. We set up repositories,
         discussed our plan for the summer (and beyond), and familiarized ourselves with frameworks.
         Namely, we refreshed ourselves on the CUDA framework for C++, the main tool that we will be
         using throughout this project for GPU parallel programming. We began by implementing simple,
@@ -108,12 +108,14 @@ const Home = () => {
                 <br/>
                 Hello! I'm a rising Junior studying Math and Computer Science through Lehigh's IDEAs program. This summer,
                 I'm continuing Zero-Knowledge research with my teammates Caleb and Victor through the Mountaintop Experience
-                program.
+                program. This particular project is a continuation of our project from this past spring in which we studied
+                and benchmarked PLONK-based Zero-Knowledge proving schemes under the supervision of former masters student
+                Tal Derei and Professor Hank Korth.
                 <br/>
                 <br/>
-                We're aiming to enhance the performance of the UltraPLONK proving system by parallelizing its proof generation
-                algorithm. We're doing this using NVIDIA's CUDA framework, which enables us to harness the power of their GPUs
-                to write code that runs in parallel.
+                Now, we're aiming to enhance the performance of the UltraPLONK proving system by parallelizing its proof
+                generation algorithm. We're doing this using NVIDIA's CUDA framework, which enables us to harness the power
+                of their GPUs to write code that runs in parallel.
                 <br/>
                 <br/>
                 You can view our week-by-week progress by using the right panel:
