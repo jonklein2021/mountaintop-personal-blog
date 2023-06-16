@@ -29,7 +29,14 @@ const Home = () => {
       },
       {
         title: "Week 2: 6/12 - 6/16",
-        text: "This card is for a week in the future..."
+        text: `This week, we dove into CUDA even more, optimizing sum reduction and matrix multiplication.
+        We explored advanced optimization techinques and special features of CUDA and discussed with a former
+        student (future Aztec engineer) about the project and the best ways to tackle MSM optimization.
+        Furthermore, we met with a PhD student about mathematical ways to optimize the MSM algorithm and 
+        planned meetings with him for next week to share ideas. We also explored existing implementations of
+        MSM, namely a simple python project, to further our understanding of the complex algorithm. Next week, we
+        want to dive into the existing codebase and begin benchmarking the current parallel implementation of the
+        MSM that we have so that we can easily add optimizations down the road.`
       },
       {
         title: "Week 3: 6/19 - 6/23",
