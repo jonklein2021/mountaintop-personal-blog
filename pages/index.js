@@ -40,7 +40,14 @@ const Home = () => {
       },
       {
         title: "Week 3: 6/19 - 6/23",
-        text: "This card is for a week in the future..."
+        text: `This week, we began several implementations of MSM algorithms in C++. Specifically, I created classes
+        to represent our very own elliptic curve, elliptic curve points, msm algorithms, and more. One challenge that
+        I faced was getting double-and-add to work. This simply deals with multiplying an EC point by some scalar n by
+        writing n*P as (2^(a_k)+...+2^(a_0))*P (writing n as a sum of powers of 2). In the end, the problem turned out to
+        be the naive implementation of n*P (P+P+...+P+P), which was a tad infuriating. At the end of the week I got started
+        on the test suite, which I plan to finish in bash, comparing the output of pippenger's bucket method with that of the
+        double-and-add algorithm. We also started an implementation of pippenger's algorithm which we will turn into the bucket
+        method next week. Next week we want to have the bucket method finished along with a robust testing suite.`
       },
       {
         title: "Week 4: 6/26 - 6/30",
