@@ -31,7 +31,7 @@ const Home = () => {
         title: "Week 2: 6/12 - 6/16",
         text: `This week, we dove into CUDA even more, optimizing sum reduction and matrix multiplication.
         We explored advanced optimization techinques and special features of CUDA and discussed with a former
-        student (future Aztec engineer) about the project and the best ways to tackle MSM optimization.
+        student (and future Aztec engineer) about the project and the best ways to tackle MSM optimization.
         Furthermore, we met with a PhD student about mathematical ways to optimize the MSM algorithm and 
         planned meetings with him for next week to share ideas. We also explored existing implementations of
         MSM, namely a simple python project, to further our understanding of the complex algorithm. Next week, we
@@ -51,7 +51,16 @@ const Home = () => {
       },
       {
         title: "Week 4: 6/26 - 6/30",
-        text: "This card is for a week in the future..."
+        text: `This week, A major focus was on refining the codebase, with particular emphasis on completing the implementation
+        of the bucket method within pippenger's algorithm as well as a focus in finishing our test suite. Specifically, we
+        finished the test suite and finished implementing the bucket method in its entirety, but failed to achieve correctness.
+        I was successful in putting my memory optimization to work, which entails aggregating each window's set of buckets one by
+        one, meaning that the buffer used by each window can be reused and we therefore only need to allocate memory for the size
+        of one window. As for the test suite, we didn't run into too many difficulties, only small hurdles with becoming familiar
+        with bash scripting. Currently, the test suite is running perfectly but we would like to upgrade it into providing more
+        specific insights (how many tests passed, accuracy score, etc). Next week, since we've already dedicated a substantial
+        amount of time to this implementation of the MSM, we plan to move forward and advance our understanding through reading
+        research papers.`
       },
       {
         title: "Week 5: 7/3 - 7/7",
