@@ -51,7 +51,7 @@ const Home = () => {
       },
       {
         title: "Week 4: 6/26 - 6/30",
-        text: `This week, A major focus was on refining the codebase, with particular emphasis on completing the implementation
+        text: `This week, a major focus was on refining the codebase, with particular emphasis on completing the implementation
         of the bucket method within pippenger's algorithm as well as a focus in finishing our test suite. Specifically, we
         finished the test suite and finished implementing the bucket method in its entirety, but failed to achieve correctness.
         I was successful in putting my memory optimization to work, which entails aggregating each window's set of buckets one by
