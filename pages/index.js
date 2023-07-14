@@ -64,7 +64,13 @@ const Home = () => {
       },
       {
         title: "Week 5: 7/3 - 7/7",
-        text: "This card is for a week in the future..."
+        text: `This week, our primary focus was working through the research paper PipeMSM, written by Ingonyama. PipeMSM spends a
+        lot of time breaking down the MSM as well as Pippenger's algorithm, the most well-known method of performing it. Down the
+        road, the paper discusses specific optimization methods, which our team found extremely useful. Some of the optimization 
+        techinques mentioned dove into parallel processing specifically, which directly apply to our team's project. Other
+        optimizations mentioned include low-hamming weight representations, a batched bucket method implementation, and the
+        Montgomery trick. Apart from PipeMSM, we began preparing for our press conference next week by giving a mock presentation
+        about this project to fellow Mountaintop participants.`
       },
       {
         title: "Week 6: 7/10 - 7/14",
@@ -103,20 +109,24 @@ const Home = () => {
         }}>
           <h1 className={styles.title}>Mountaintop Experience Weekly Reports</h1>
           <h2 className={styles.subtitle}>Jon Klein</h2>
-          <a target="_blank" href="https://creativeinquiry.lehigh.edu/mountaintop-programs/mountaintop-summer-experience" rel="noopener noreferrer"><Image
-          src={lehigh}
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ position: 'absolute', width: '5%', height: 'auto', top: '10px', left: 0, zIndex: 1000}}
-          /></a>
-          <a target="_blank" href="https://wordpress.lehigh.edu/sss/" rel="noopener noreferrer"><Image
-          src={sss}
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ position: 'absolute', width: '5%', height: 'auto', top: 0, right: '10px', zIndex: 1000}}
-          /></a>
+          <a target="_blank" href="https://creativeinquiry.lehigh.edu/mountaintop-programs/mountaintop-summer-experience" rel="noopener noreferrer">
+            <Image
+            src={lehigh}
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ position: 'absolute', width: '5%', height: 'auto', top: '10px', left: 0, zIndex: 1000}}
+            />
+          </a>
+          <a target="_blank" href="https://wordpress.lehigh.edu/sss/" rel="noopener noreferrer">
+            <Image
+            src={sss}
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ position: 'absolute', width: '5%', height: 'auto', top: 0, right: '10px', zIndex: 1000}}
+            />
+          </a>
           <div className={styles.contentbox}>
             <div className={styles.infobox}>
               <Image
@@ -134,7 +144,7 @@ const Home = () => {
                 program. This particular project is a continuation of our project from this past spring in which we studied
                 and benchmarked PLONK-based Zero-Knowledge proving schemes under the supervision of Professor Hank Korth and
                 former masters student Tal Derei. From that experience came the publication of the 
-                <a target="_blank" href="/VDBS_ZK_paper.pdf" rel="noopener noreferrer"> <u>VDBS paper</u></a>.
+                <a target="_blank" href="/VDBS_ZK_paper.pdf" rel="noopener noreferrer"><u>VDBS paper</u></a>.
                 Now, we're aiming to enhance the performance of the UltraPLONK proving system by parallelizing its proof
                 generation algorithm. We're doing this using NVIDIA's CUDA framework, which enables us to harness the power
                 of their GPUs to write code that runs in parallel.
