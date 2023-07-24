@@ -74,7 +74,9 @@ const Home = () => {
       },
       {
         title: "Week 6: 7/10 - 7/14",
-        text: "This card is for a week in the future..."
+        text: `This week, we focused on preparing for our press conference presentation. We settled on limiting the scope of our
+        presentation to general blockchain applications with small insights into ZK-proofs and benchmarking. We weren't able to do
+        much more due to this intensive preparation, but thanks to it, the event went very well for us.`
       },
       {
         title: "Week 7: 7/17 - 7/21",
@@ -143,8 +145,8 @@ const Home = () => {
                 I'm continuing Zero-Knowledge research with my teammates Caleb and Victor through the Mountaintop Experience
                 program. This particular project is a continuation of our project from this past spring in which we studied
                 and benchmarked PLONK-based Zero-Knowledge proving schemes under the supervision of Professor Hank Korth and
-                former masters student Tal Derei. From that experience came the publication of the 
-                <a target="_blank" href="/VDBS_ZK_paper.pdf" rel="noopener noreferrer"><u>VDBS paper</u></a>.
+                former masters student Tal Derei. From that experience came the publication of the
+                <a target="_blank" href="/VDBS_ZK_paper.pdf" rel="noopener noreferrer"><u> VDBS paper</u></a>.
                 Now, we're aiming to enhance the performance of the UltraPLONK proving system by parallelizing its proof
                 generation algorithm. We're doing this using NVIDIA's CUDA framework, which enables us to harness the power
                 of their GPUs to write code that runs in parallel.
