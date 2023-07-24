@@ -80,7 +80,14 @@ const Home = () => {
       },
       {
         title: "Week 7: 7/17 - 7/21",
-        text: "This card is for a week in the future..."
+        text: `This week, our team continued working through research papers and enhancing our mathematical understanding of the
+        MSM algorithm. Namely, we tackled reading the cuZK paper written by researchers at Zhejiang University and the Ant Group in
+        China. This concept of this paper is to represent the MSM problem using sparse matrices. Since sparse matrix operations are 
+        extremely fast, representation alone gives high potential to a faster MSM algorithm. According to cuZK, the results are serious:
+        "The evaluation results show that our MSM module provides over 2.08x (up to 2.94x) speedup versus the state-of-the-art GPU
+        implementation. cuZK achieves over 2.65x (up to 4.86x) speedup on standard benchmarks and 2.18x speedup on a GPU-accelerated
+        cryptocurrency application, Filecoin." After reading this paper and reviewing PipeMSM, we held a formal meeting with a PhD
+        Numerical Analysis student and several professors to discuss how these papers may fit into our research.`
       },
       {
         title: "Week 8: 7/24 - 7/28",
